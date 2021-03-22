@@ -1,0 +1,2 @@
+<div class="menu-left"><a href="./view.php">Просмотр</a>&nbsp;|&nbsp;<a href="./edit.php?id=new">Добавление</a>&nbsp;|&nbsp;<a href="./admin.php">Управление</a></div>
+<div class="menu-right"><?PHP echo date("d.m.Y"); ?> / <a href="./auth.php"><?PHP echo $_SESSION['fio']; ?></a></div>
